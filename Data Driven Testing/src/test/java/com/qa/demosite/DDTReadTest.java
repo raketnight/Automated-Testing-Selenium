@@ -25,7 +25,7 @@ public class DDTReadTest {
 
     @Before
     public void setup() {
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Admin\\Desktop\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\gnana\\Desktop\\chromedriver.exe");
         driver = new ChromeDriver();
         report = new ExtentReports(Constants.DDTReportLocation);
         test = report.startTest("Commencing Reading Test");
@@ -88,7 +88,12 @@ public class DDTReadTest {
                 test.log(LogStatus.FAIL, "Login was unsuccessful");
             }
 
+            readTest.log(LogStatus.INFO,"Trying to write in log in attempt of account"+i);
             excelUtilities.setCellData(loginPage.getLoginResult().getText(),i,3);
+            if(excelUtilities.getCellData(i,2).equals(excelUtilities.getCellData(i,3))){
+                readTest.log(LogStatus.PASS,"Successfully wrote in the file with account"+i+" and matched the expected value in the excel file");
+            }
+
         }
 
     }
