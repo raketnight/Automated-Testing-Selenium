@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4012e30-d4a8-43a1-a42c-9026232f6f2e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/demosite/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/demosite/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/demosite/DDTReadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qa/demosite/DDTReadTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/qa/demosite/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/demosite/Constants.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/qa/demosite/ExcelUtilities.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/demosite/ExcelUtilities.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/qa/demosite/DDTReadTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/qa/demosite/DDTReadTest.class" afterDir="false" />
@@ -62,12 +57,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="333" />
+          <entry key="txt" value="12" />
           <entry key="xml" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="333" />
+          <entry key="PLAIN_TEXT" value="12" />
           <entry key="XML" value="6" />
         </counts>
       </usages-collector>
@@ -117,11 +114,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/demosite/ExcelUtilities.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="50" column="109" selection-start-line="50" selection-start-column="109" selection-end-line="50" selection-end-column="109" />
+            <state relative-caret-position="459">
+              <caret line="59" column="41" lean-forward="true" selection-start-line="59" selection-start-column="41" selection-end-line="59" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -141,7 +138,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/qa/demosite/DemoSiteTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -259,7 +256,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539898435902" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539898620801" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -329,6 +326,14 @@
       <option name="presentableId" value="Default" />
       <updated>1539876747933</updated>
     </task>
+    <task id="LOCAL-00001" summary="update 18/10">
+      <created>1539898646624</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1539898646624</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -373,7 +378,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1874" height="1096" extended-state="7" />
+    <frame x="-8" y="-8" width="1874" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25303197" />
@@ -407,6 +412,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update 18/10" />
+    <option name="LAST_COMMIT_MESSAGE" value="update 18/10" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/demosite/CreateUserPage.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -428,10 +437,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/demosite/Constants.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/demosite/ExcelUtilities.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="459">
+          <caret line="59" column="41" lean-forward="true" selection-start-line="59" selection-start-column="41" selection-end-line="59" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -442,13 +454,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/qa/demosite/DemoSiteTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/demosite/Constants.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="15" column="44" lean-forward="true" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="306">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
@@ -462,10 +471,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/demosite/ExcelUtilities.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/qa/demosite/DemoSiteTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="50" column="109" selection-start-line="50" selection-start-column="109" selection-end-line="50" selection-end-column="109" />
+        <state>
+          <caret line="15" column="44" lean-forward="true" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
